@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(229, 229, 229);
+}
+
+.leftCircle{
+    background-color: blue;
+   flex: 1;
+   border-radius: 960px 0px 0px 960px;
+}
+
+.rightCircle{
+    background-color: rgb(255, 242, 59);
+    flex: 1;
+    border-radius: 0px 960px 960px 0px;
+}
